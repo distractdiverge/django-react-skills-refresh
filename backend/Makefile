@@ -3,3 +3,6 @@ makemigrations:
 
 migrate:
 	pipenv run python manage.py migrate 
+
+dev:
+	pipenv run python manage.py runserver
